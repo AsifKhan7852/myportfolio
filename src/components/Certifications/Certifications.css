@@ -1,0 +1,115 @@
+.certifications {
+    background: var(--bg-primary);
+}
+
+.cert-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.cert-card {
+    padding: 2.5rem 2rem;
+    text-align: center;
+    transition: all var(--transition-normal);
+}
+
+.cert-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-glow);
+}
+
+.cert-icon {
+    font-size: 3.5rem;
+    color: var(--accent-primary);
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cert-card h3 {
+    font-size: 1.25rem;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+}
+
+.cert-issuer {
+    color: var(--accent-secondary);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.cert-platform {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.achievements-section {
+    padding: 2.5rem;
+}
+
+.achievements-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--accent-primary);
+}
+
+.achievement-icon {
+    font-size: 2.5rem;
+    color: var(--accent-tertiary);
+}
+
+.achievements-header h3 {
+    font-size: 1.75rem;
+    color: var(--text-primary);
+}
+
+.achievements-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.achievements-list li {
+    color: var(--text-secondary);
+    padding-left: 2rem;
+    position: relative;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+.achievements-list li::before {
+    content: '🏆';
+    position: absolute;
+    left: 0;
+    font-size: 1.25rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .achievements-list {
+        grid-template-columns: 1fr;
+    }
+
+    .achievements-section {
+        padding: 2rem 1.5rem;
+    }
+
+    .cert-card {
+        padding: 2rem 1.5rem;
+    }
+}
