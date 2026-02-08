@@ -1,12 +1,9 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { FaGithub, FaLinkedin, FaEnvelope, FaHeart, FaArrowUp } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaHeart } from 'react-icons/fa';
 import './Footer.css';
 
 const Footer = () => {
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
 
     const quickLinks = [
         { to: 'home', label: 'Home' },
@@ -34,7 +31,7 @@ const Footer = () => {
                                 <FaGithub />
                             </a>
                             <a
-                                href="https://linkedin.com/in/asifkhan"
+                                href="https://www.linkedin.com/in/asif-khan-4a256b266"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="LinkedIn"
@@ -42,7 +39,9 @@ const Footer = () => {
                                 <FaLinkedin />
                             </a>
                             <a
-                                href="mailto:muhammadasifkhan7852@gmail.com"
+                                href="https://mail.google.com/mail/?view=cm&fs=1&to=muhammadasifkhan7852@gmail.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 aria-label="Email"
                             >
                                 <FaEnvelope />
@@ -88,9 +87,6 @@ const Footer = () => {
                     <p>
                         Made with <FaHeart className="heart-icon" /> by Muhammad Asif Khan © {new Date().getFullYear()}
                     </p>
-                    <button onClick={scrollToTop} className="scroll-top" aria-label="Scroll to top">
-                        <FaArrowUp />
-                    </button>
                 </div>
             </div>
         </footer>

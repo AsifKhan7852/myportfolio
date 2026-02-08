@@ -251,6 +251,8 @@
     transition: all var(--transition-normal);
     position: relative;
     overflow: hidden;
+    z-index: 20;
+    cursor: pointer;
 }
 
 .social-icon::before {

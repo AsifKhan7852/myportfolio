@@ -1,0 +1,62 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    background: var(--gradient-primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: var(--shadow-md);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.3s ease-in-out;
+    z-index: 9999;
+}
+
+.scroll-to-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    animation: scrollPulse 2s infinite;
+}
+
+@keyframes scrollPulse {
+    0% {
+        transform: translateY(0) scale(1);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    50% {
+        transform: translateY(0) scale(1.1);
+        box-shadow: 0 0 20px rgba(59, 130, 246, 0.6);
+    }
+
+    100% {
+        transform: translateY(0) scale(1);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.scroll-to-top:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-glow);
+    background: var(--accent-secondary);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .scroll-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+}

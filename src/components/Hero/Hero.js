@@ -132,7 +132,7 @@ const Hero = () => {
                                 <FaGithub />
                             </a>
                             <a
-                                href="https://linkedin.com/in/asifkhan"
+                                href="https://www.linkedin.com/in/asif-khan-4a256b266"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="social-icon"
@@ -141,7 +141,9 @@ const Hero = () => {
                                 <FaLinkedin />
                             </a>
                             <a
-                                href="mailto:muhammadasifkhan7852@gmail.com"
+                                href="https://mail.google.com/mail/?view=cm&fs=1&to=muhammadasifkhan7852@gmail.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="social-icon"
                                 aria-label="Email"
                             >

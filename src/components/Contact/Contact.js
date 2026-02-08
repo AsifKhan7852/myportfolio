@@ -28,7 +28,7 @@ const Contact = () => {
             icon: <FaEnvelope />,
             label: 'Email',
             value: 'muhammadasifkhan7852@gmail.com',
-            link: 'mailto:muhammadasifkhan7852@gmail.com'
+            link: 'https://mail.google.com/mail/?view=cm&fs=1&to=muhammadasifkhan7852@gmail.com'
         },
         {
             icon: <FaPhone />,
@@ -53,7 +53,7 @@ const Contact = () => {
         {
             icon: <FaLinkedin />,
             label: 'LinkedIn',
-            link: 'https://linkedin.com/in/asifkhan'
+            link: 'https://www.linkedin.com/in/asif-khan-4a256b266'
         }
     ];
 

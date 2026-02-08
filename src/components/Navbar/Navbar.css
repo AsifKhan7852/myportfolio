@@ -16,6 +16,20 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Force white text when navbar is scrolled (on dark background) */
+.navbar.scrolled .nav-link {
+    color: #cbd5e1 !important;
+}
+
+.navbar.scrolled .nav-link:hover,
+.navbar.scrolled .nav-link.active {
+    color: #ffffff !important;
+}
+
+.navbar.scrolled .mobile-menu-icon {
+    color: #ffffff !important;
+}
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
@@ -55,6 +69,8 @@
     font-size: 1rem;
     cursor: pointer;
     position: relative;
+    padding: 0.5rem 0;
+    transition: all var(--transition-fast);
     padding: 0.5rem 0;
     transition: all var(--transition-fast);
     color: var(--text-secondary);

@@ -1,12 +1,13 @@
 import React from 'react';
 import {
     FaReact, FaNode, FaCss3Alt, FaBootstrap, FaGithub,
-    FaUsers, FaLightbulb, FaComments
+    FaUsers, FaLightbulb, FaComments, FaBolt, FaUserTie
 } from 'react-icons/fa';
 import {
     SiJavascript, SiMongodb, SiExpress, SiRedux, SiMui,
     SiTailwindcss, SiPostman
 } from 'react-icons/si';
+import { VscVscode } from 'react-icons/vsc';
 import './Skills.css';
 
 const Skills = () => {
@@ -30,9 +31,9 @@ const Skills = () => {
             title: 'Tools & Technologies',
             skills: [
                 { name: 'GitHub', icon: <FaGithub />, level: 90 },
-                { name: 'VS Code', icon: null, level: 95 },
+                { name: 'VS Code', icon: <VscVscode />, level: 95 },
                 { name: 'Postman', icon: <SiPostman />, level: 85 },
-                { name: 'Thunder Client', icon: null, level: 80 },
+                { name: 'Thunder Client', icon: <FaBolt />, level: 80 },
             ]
         },
         {
@@ -40,7 +41,7 @@ const Skills = () => {
             skills: [
                 { name: 'Teamwork', icon: <FaUsers />, level: 95 },
                 { name: 'Creativity', icon: <FaLightbulb />, level: 90 },
-                { name: 'Leadership', icon: null, level: 85 },
+                { name: 'Leadership', icon: <FaUserTie />, level: 85 },
                 { name: 'Communication', icon: <FaComments />, level: 90 },
             ]
         }
