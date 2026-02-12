@@ -13,7 +13,7 @@ const Hero = () => {
 
     const fullName = "Muhammad Asif Khan";
     const stats = [
-        { value: "2+", label: "Years Experience" },
+        { value: "1+", label: "Years Experience" },
         { value: "8+", label: "Projects Completed" },
         { value: "100%", label: "Client Satisfaction" }
     ];
