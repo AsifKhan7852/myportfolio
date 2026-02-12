@@ -15,7 +15,7 @@ const Certifications = () => {
 
     const achievements = [
         'Completed Bachelor of Science in Software Engineering',
-        '2+ Years of Professional MERN Stack Development',
+        '1+ Years of Professional MERN Stack Development',
         'Successfully delivered 8+ production-ready projects',
         'Expertise in real-time applications and payment integrations'
     ];
