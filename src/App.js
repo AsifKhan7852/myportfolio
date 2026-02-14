@@ -26,7 +26,6 @@ function App() {
         <Skills />
         <Certifications />
         <Contact />
-        <Contact />
         <Footer />
         <ScrollToTop />
       </div>
