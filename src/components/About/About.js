@@ -13,7 +13,7 @@ const About = () => {
                 <div className="about-content">
                     <div className="about-text">
                         <p className="about-intro">
-                            I'm a passionate <span className="gradient-text">MERN Stack Developer</span> with over 2 years of experience
+                            I'm a passionate <span className="gradient-text">MERN Stack Developer</span> with over 1 years of experience
                             building modern, scalable web applications. I specialize in creating exceptional digital experiences
                             that combine beautiful design with powerful functionality.
                         </p>
