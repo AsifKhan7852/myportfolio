@@ -13,7 +13,7 @@ const Hero = () => {
 
     const fullName = "Muhammad Asif Khan";
     const stats = [
-        { value: "1+", label: "Years Experience" },
+        { value: "2+", label: "Years Experience" },
         { value: "8+", label: "Projects Completed" },
         { value: "100%", label: "Client Satisfaction" }
     ];
@@ -75,7 +75,7 @@ const Hero = () => {
                             <span className="cursor">|</span>
                         </h1>
                         <h2 className="hero-title">
-                            <span className="gradient-text">MERN Stack Developer</span>
+                            <span className="gradient-text">React.js Developer</span>
                         </h2>
                         <p className="hero-description">
                             Crafting exceptional web experiences with React.js, Node.js, Express, and MongoDB.

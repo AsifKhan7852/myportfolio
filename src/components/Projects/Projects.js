@@ -11,7 +11,7 @@ const Projects = () => {
         {
             id: 1,
             title: 'Researchpal.co',
-            category: 'MERN Stack',
+            category: 'React.js',
             description: 'Comprehensive research platform with real-time collaboration, AI-powered features, and document management.',
             features: [
                 'Real-time project sharing via WebSockets',
@@ -21,13 +21,13 @@ const Projects = () => {
                 'Citation management (APA, MLA)',
                 'AI text generation & paraphrasing'
             ],
-            tags: ['React', 'Node.js', 'MongoDB', 'WebSocket', 'Stripe', 'AI'],
+            tags: ['React', 'Material UI', 'Redux', 'Bootstrap', 'WebSocket', 'AI'],
             link: 'https://researchpal.co'
         },
         {
             id: 2,
             title: 'ManageKaro.org',
-            category: 'MERN Stack',
+            category: 'React.js',
             description: 'Complete business management platform for SMEs with invoicing, inventory, and POS features.',
             features: [
                 'Invoicing and billing solutions',
@@ -37,13 +37,13 @@ const Projects = () => {
                 'Cloud-based architecture',
                 'User-friendly dashboard'
             ],
-            tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Dashboard'],
+            tags: ['React', 'Redux', 'Tailwind CSS', 'Bootstrap', 'Dashboard'],
             link: 'https://managekaro.org'
         },
         {
             id: 3,
             title: 'DataLumio.co',
-            category: 'MERN Stack',
+            category: 'React.js',
             description: 'Data analytics platform with advanced data cleaning, analysis, and visualization capabilities.',
             features: [
                 'Data analysis tools',
@@ -53,7 +53,7 @@ const Projects = () => {
                 'SEO optimization',
                 'Google Analytics integration'
             ],
-            tags: ['React', 'Node.js', 'Data Analytics', 'Charts', 'SEO'],
+            tags: ['React', 'Material UI', 'Redux', 'Data Analytics', 'Charts'],
             link: 'https://datalumio.co'
         },
         {
@@ -69,13 +69,13 @@ const Projects = () => {
                 'News API integration (BBC, CNN, Gulf)',
                 'Automated content creation'
             ],
-            tags: ['React', 'AI', 'Video Generation', 'News API'],
+            tags: ['React', 'Bootstrap', 'AI', 'Video Generation', 'News API'],
             link: 'https://a47.news'
         },
         {
             id: 5,
             title: 'RoyCat.lol',
-            category: 'MERN Stack',
+            category: 'React.js',
             description: 'Cryptocurrency liquid staking platform with real-time rewards and token management.',
             features: [
                 'Token staking functionality',
@@ -85,13 +85,13 @@ const Projects = () => {
                 'User-friendly interface',
                 'Secure transactions'
             ],
-            tags: ['React', 'Node.js', 'Blockchain', 'Web3', 'Crypto'],
+            tags: ['React', 'Redux', 'Tailwind CSS', 'Blockchain', 'Web3'],
             link: 'https://roycat.lol'
         },
         {
             id: 6,
             title: 'Tamatomos',
-            category: 'React.js',
+            category: 'MERN Stack',
             description: 'Gamified platform with referral system, inventory management, and blockchain integration.',
             features: [
                 'Referral system',
@@ -101,7 +101,7 @@ const Projects = () => {
                 'Airdrop and missions',
                 'MetaMask integration'
             ],
-            tags: ['React', 'Web3', 'MetaMask', 'Gaming', 'Twitter API'],
+            tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Web3', 'MetaMask'],
         },
         {
             id: 7,
@@ -115,7 +115,7 @@ const Projects = () => {
                 'Real-time gameplay',
                 'User authentication'
             ],
-            tags: ['React', 'Gaming', 'API', 'Responsive'],
+            tags: ['React', 'Material UI', 'Gaming', 'API', 'Responsive'],
         },
         {
             id: 8,
@@ -130,7 +130,7 @@ const Projects = () => {
                 'Revenue tracking',
                 'Booking management'
             ],
-            tags: ['React', 'Node.js', 'MongoDB', 'Payment', 'Booking'],
+            tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Payment'],
         }
     ];
 

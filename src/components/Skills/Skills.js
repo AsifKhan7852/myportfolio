@@ -24,7 +24,7 @@ const Skills = () => {
                 { name: 'CSS', icon: <FaCss3Alt />, level: 90 },
                 { name: 'Bootstrap', icon: <FaBootstrap />, level: 85 },
                 { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 85 },
-                { name: 'Material-UI', icon: <SiMui />, level: 80 },
+                { name: 'Material UI (MUI)', icon: <SiMui />, level: 80 },
             ]
         },
         {
