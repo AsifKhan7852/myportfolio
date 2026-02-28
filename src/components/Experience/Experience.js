@@ -8,10 +8,10 @@ const Experience = () => {
             id: 1,
             company: 'Infini8Ai',
             location: 'Estridge Rawalpindi',
-            position: 'MERN Stack Developer',
+            position: 'React.js Developer',
             duration: 'Jul 2025 - Present',
             current: true,
-            description: 'Leading development of cutting-edge AI-powered web applications using the MERN stack.',
+            description: 'Leading development of cutting-edge AI-powered web applications using React.js and modern frontend technologies.',
             responsibilities: [
                 'Developing and maintaining scalable web applications',
                 'Implementing AI integration features',

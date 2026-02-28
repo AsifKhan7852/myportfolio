@@ -82,7 +82,7 @@ This portfolio is set up for automatic deployment via **Vercel**.
 To update your live site, simply **push your changes to GitHub**:
 ```bash
 git add .
-git commit -m "Update portfolio"
+git commit -m "Update to make it react js portfolio"
 git push origin main
 ```
 Vercel will detect the push and redeploy automatically within minutes.

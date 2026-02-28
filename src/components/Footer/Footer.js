@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className="footer-content">
                     <div className="footer-section">
                         <h3 className="gradient-text">Asif Khan</h3>
-                        <p>MERN Stack Developer passionate about creating exceptional web experiences.</p>
+                        <p>React.js Developer passionate about creating exceptional web experiences.</p>
                         <div className="footer-social">
                             <a
                                 href="https://github.com/AsifKhan7852"
