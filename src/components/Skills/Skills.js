@@ -1,11 +1,13 @@
 import React from 'react';
 import {
     FaReact, FaNode, FaCss3Alt, FaBootstrap, FaGithub,
-    FaUsers, FaLightbulb, FaComments, FaBolt, FaUserTie
+    FaUsers, FaLightbulb, FaComments, FaBolt, FaUserTie,
+    FaSearch, FaNetworkWired
 } from 'react-icons/fa';
 import {
     SiJavascript, SiMongodb, SiExpress, SiRedux, SiMui,
-    SiTailwindcss, SiPostman
+    SiTailwindcss, SiPostman, SiDocker, SiRedis, SiGoogleanalytics,
+    SiVercel, SiFirebase
 } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 import './Skills.css';
@@ -13,36 +15,38 @@ import './Skills.css';
 const Skills = () => {
     const skillCategories = [
         {
-            title: 'Languages & Frameworks',
+            title: 'Frontend & UI',
             skills: [
-                { name: 'JavaScript', icon: <SiJavascript />, level: 90 },
                 { name: 'React.js', icon: <FaReact />, level: 95 },
-                { name: 'Node.js', icon: <FaNode />, level: 90 },
-                { name: 'Express', icon: <SiExpress />, level: 85 },
-                { name: 'MongoDB', icon: <SiMongodb />, level: 85 },
-                { name: 'Redux', icon: <SiRedux />, level: 80 },
-                { name: 'CSS', icon: <FaCss3Alt />, level: 90 },
+                { name: 'JavaScript', icon: <SiJavascript />, level: 90 },
+                { name: 'Redux', icon: <SiRedux />, level: 85 },
+                { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 90 },
                 { name: 'Bootstrap', icon: <FaBootstrap />, level: 85 },
-                { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 85 },
-                { name: 'Material-UI', icon: <SiMui />, level: 80 },
+                { name: 'Material-UI', icon: <SiMui />, level: 85 },
+                { name: 'CSS3', icon: <FaCss3Alt />, level: 90 },
             ]
         },
         {
-            title: 'Tools & Technologies',
+            title: 'Backend & Database',
             skills: [
+                { name: 'Node.js', icon: <FaNode />, level: 90 },
+                { name: 'Express', icon: <SiExpress />, level: 90 },
+                { name: 'MongoDB', icon: <SiMongodb />, level: 85 },
+                { name: 'REST API', icon: <FaBolt />, level: 95 },
+                { name: 'WebSockets', icon: <FaNetworkWired />, level: 85 },
+                { name: 'Redis', icon: <SiRedis />, level: 80 },
+                { name: 'Docker', icon: <SiDocker />, level: 75 },
+            ]
+        },
+        {
+            title: 'Tools & Others',
+            skills: [
+                { name: 'Vercel', icon: <SiVercel />, level: 90 },
+                { name: 'Firebase', icon: <SiFirebase />, level: 85 },
+                { name: 'SEO (Helmet)', icon: <FaSearch />, level: 85 },
+                { name: 'Google Analytics', icon: <SiGoogleanalytics />, level: 80 },
                 { name: 'GitHub', icon: <FaGithub />, level: 90 },
-                { name: 'VS Code', icon: <VscVscode />, level: 95 },
-                { name: 'Postman', icon: <SiPostman />, level: 85 },
-                { name: 'Thunder Client', icon: <FaBolt />, level: 80 },
-            ]
-        },
-        {
-            title: 'Soft Skills',
-            skills: [
-                { name: 'Teamwork', icon: <FaUsers />, level: 95 },
-                { name: 'Creativity', icon: <FaLightbulb />, level: 90 },
-                { name: 'Leadership', icon: <FaUserTie />, level: 85 },
-                { name: 'Communication', icon: <FaComments />, level: 90 },
+                { name: 'Postman', icon: <SiPostman />, level: 90 },
             ]
         }
     ];

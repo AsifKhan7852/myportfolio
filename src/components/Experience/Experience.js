@@ -7,16 +7,19 @@ const Experience = () => {
         {
             id: 1,
             company: 'Infini8Ai',
-            location: 'Estridge Rawalpindi',
+            location: 'Rawalpindi, Pakistan',
             position: 'MERN Stack Developer',
             duration: 'Jul 2025 - Present',
             current: true,
-            description: 'Leading development of cutting-edge AI-powered web applications using the MERN stack.',
+            description: 'Leading development of cutting-edge AI-powered web applications using the MERN stack with a focus on performance and security.',
             responsibilities: [
-                'Developing and maintaining scalable web applications',
-                'Implementing AI integration features',
-                'Collaborating with cross-functional teams',
-                'Code review and mentoring junior developers'
+                'Implemented React.js (Hooks, Functional Components) with Redux and Context API',
+                'Integrated AI APIs (OpenAI ChatGPT, Gemini) and real-time features using WebSockets',
+                'Developed and Integrated secure payment systems using Stripe',
+                'Optimized performance with Memoization, Code Splitting, and Lazy Loading',
+                'Designed scalable MongoDB schemas with Aggregations and Query Optimization',
+                'Implemented JWT Authentication, Redis Caching, and Role-based Access Control',
+                'Managed deployment and environment using Docker, Vercel, and Firebase'
             ]
         },
         {
@@ -24,15 +27,16 @@ const Experience = () => {
             company: 'InventioSoft',
             location: 'Huzaifa Plaza',
             position: 'MERN Stack Developer',
-            duration: 'Jun 2024 - Jun 2025',
+            duration: 'Jul 2024 - Jul 2025',
             current: false,
-            description: 'Developed multiple full-stack applications including research platforms, business management systems, and data analytics tools.',
+            description: 'Contributed to multiple full-stack applications building responsive and scalable MERN stack solutions.',
             responsibilities: [
-                'Built Researchpal.co with real-time collaboration features',
-                'Developed ManageKaro.org business management platform',
-                'Implemented payment integrations with Stripe',
-                'Created data visualization dashboards',
-                'Optimized application performance and SEO'
+                'Built responsive UIs using Tailwind CSS, Bootstrap, and Material UI',
+                'Developed and integrated RESTful APIs using Node.js and Express.js',
+                'Implemented state management using Redux and Context API',
+                'Developed and Integrated third-party APIs including Twitter API, Stripe, and MetaMask Wallet',
+                'Optimized frontend performance and implemented reusable component architecture',
+                'Managed version control using Git/GitHub for collaborative development'
             ]
         }
     ];

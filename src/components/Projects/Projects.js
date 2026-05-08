@@ -10,127 +10,114 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            title: 'Researchpal.co',
+            title: 'ResearchPal.co',
             category: 'MERN Stack',
-            description: 'Comprehensive research platform with real-time collaboration, AI-powered features, and document management.',
+            description: 'AI-powered research and document collaboration platform enabling real-time sharing and intelligent analysis.',
             features: [
-                'Real-time project sharing via WebSockets',
-                'Literature review generator',
-                'Stripe payment integration',
-                'Interactive PDF querying',
-                'Citation management (APA, MLA)',
-                'AI text generation & paraphrasing'
+                'Real-time document sharing using WebSockets',
+                'AI text generation, Chatbots, and Translation',
+                'Interactive PDF chat and citation management',
+                'Developed and Integrated Stripe for subscription billing',
+                'SEO optimization (React Helmet) and GA4 integration',
+                'Automated error notifications via email',
+                'Responsive UI design with Material UI (MUI)'
             ],
-            tags: ['React', 'Node.js', 'MongoDB', 'WebSocket', 'Stripe', 'AI'],
+            tags: ['React', 'Redux', 'Node.js', 'Express', 'MongoDB', 'WebSocket', 'Stripe', 'AI', 'SEO', 'MUI'],
             link: 'https://researchpal.co'
         },
         {
             id: 2,
             title: 'ManageKaro.org',
             category: 'MERN Stack',
-            description: 'Complete business management platform for SMEs with invoicing, inventory, and POS features.',
+            description: 'Business Management & POS Platform optimized for 25% performance improvement in operational efficiency.',
             features: [
-                'Invoicing and billing solutions',
-                'Inventory and stock management',
-                'POS and sales tracking',
-                'Financial reporting',
-                'Cloud-based architecture',
-                'User-friendly dashboard'
+                'Invoicing, billing, and sales tracking',
+                'Inventory management system',
+                'Financial analytics dashboards',
+                'Performance optimized by 25%',
+                'Cloud-based scalable architecture',
+                'Role-based access control',
+                'Responsive UI design with Material UI (MUI)'
             ],
-            tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Dashboard'],
+            tags: ['React', 'Redux', 'Node.js', 'Express', 'MongoDB', 'POS', 'Optimization', 'MUI'],
             link: 'https://managekaro.org'
         },
         {
             id: 3,
             title: 'DataLumio.co',
             category: 'MERN Stack',
-            description: 'Data analytics platform with advanced data cleaning, analysis, and visualization capabilities.',
+            description: 'Data analysis and cleaning platform connecting multiple sources including Excel and Google Drive.',
             features: [
-                'Data analysis tools',
-                'Data cleaning & transformation',
-                'Interactive dashboards',
-                'Data conversation features',
-                'SEO optimization',
-                'Google Analytics integration'
+                'Connects Excel, Google Drive, and Meta data',
+                'Interactive data conversion and cleaning tools',
+                'Real-time data processing pipelines',
+                'Automated email notifications for error monitoring',
+                'SEO optimization and stability management',
+                'Secure database integration',
+                'Responsive UI design with Material UI (MUI)'
             ],
-            tags: ['React', 'Node.js', 'Data Analytics', 'Charts', 'SEO'],
+            tags: ['React', 'Redux', 'Node.js', 'SEO', 'MUI', 'Express', 'MongoDB'],
             link: 'https://datalumio.co'
         },
         {
             id: 4,
             title: 'A47.news',
             category: 'React.js',
-            description: 'AI-powered news platform with automated video generation and talking avatars.',
+            description: 'AI-powered news and video generation platform with automated scripts and talking avatars.',
             features: [
-                'AI script generation',
-                'AI image generation',
-                'Talking avatar integration',
-                'Video generation from news',
-                'News API integration (BBC, CNN, Gulf)',
-                'Automated content creation'
+                'AI-based news content and video creation',
+                'Automated scripts and image generation',
+                'Talking avatar features integration',
+                'Real-time news from BBC and CNN',
+                'Redux for complex state management',
+                'Material UI for responsive design'
             ],
-            tags: ['React', 'AI', 'Video Generation', 'News API'],
+            tags: ['React', 'Redux', 'MUI', 'Tailwind'],
             link: 'https://a47.news'
         },
         {
             id: 5,
             title: 'RoyCat.lol',
-            category: 'MERN Stack',
-            description: 'Cryptocurrency liquid staking platform with real-time rewards and token management.',
+            category: 'React.js',
+            description: 'Crypto staking platform offering real-time reward and fee calculations with secure transactions.',
             features: [
-                'Token staking functionality',
-                'Real-time rewards tracking',
-                'Fee transparency',
-                'Daily token value growth',
-                'User-friendly interface',
-                'Secure transactions'
+                'Real-time reward and fee calculations',
+                'Secure wallet-friendly user interface',
+                'Efficient transaction handling',
+                'Responsive crypto dashboard',
+                'Daily token value growth tracking'
             ],
-            tags: ['React', 'Node.js', 'Blockchain', 'Web3', 'Crypto'],
+            tags: ['React', 'Redux', 'MUI', 'Tailwind', 'Staking'],
             link: 'https://roycat.lol'
         },
         {
             id: 6,
             title: 'Tamatomos',
-            category: 'React.js',
-            description: 'Gamified platform with referral system, inventory management, and blockchain integration.',
+            category: 'MERN Stack',
+            description: 'Referral and reward system with inventory management, leaderboard, and blockchain authentication.',
             features: [
-                'Referral system',
-                'Hatchery system',
-                'Inventory management',
-                'Leaderboard',
-                'Airdrop and missions',
-                'MetaMask integration'
+                'Referral and reward mechanics',
+                'MetaMask and Twitter authentication',
+                'Inventory management and leaderboard',
+                'Admin dashboard functionality',
+                'Enhanced user engagement tracking'
             ],
-            tags: ['React', 'Web3', 'MetaMask', 'Gaming', 'Twitter API'],
+            tags: ['React', 'Node.js', 'Express', 'Web3', 'MetaMask', 'Twitter API'],
         },
-        {
-            id: 7,
-            title: 'BC.Game',
-            category: 'React.js',
-            description: 'Casino gaming application with API integration and responsive UI.',
-            features: [
-                'Casino game mechanics',
-                'API integration',
-                'Responsive design',
-                'Real-time gameplay',
-                'User authentication'
-            ],
-            tags: ['React', 'Gaming', 'API', 'Responsive'],
-        },
+
         {
             id: 8,
             title: 'Rooftop Cricket',
             category: 'MERN Stack',
-            description: 'Booking platform for rooftop cricket venues with payment integration and admin dashboard.',
+            description: 'Booking and payment platform with role-based access for users, admins, and super admins.',
             features: [
-                'Rooftop booking system',
-                'Payment processing',
-                'User management',
-                'Admin dashboard',
-                'Revenue tracking',
-                'Booking management'
+                'Role-based access (User, Admin, Super Admin)',
+                'Developed and Integrated Stripe payment systems',
+                'Revenue tracking and booking management',
+                'Real-time booking notifications',
+                'Responsive venue booking system'
             ],
-            tags: ['React', 'Node.js', 'MongoDB', 'Payment', 'Booking'],
+            tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe', 'RBAC'],
         }
     ];
 

@@ -104,7 +104,7 @@ const Contact = () => {
                                     value={formData.name}
                                     onChange={handleChange}
                                     required
-                                    placeholder="John Doe"
+                                    placeholder="Asif Khan"
                                 />
                             </div>
                             <div className="form-group">
@@ -116,7 +116,7 @@ const Contact = () => {
                                     value={formData.email}
                                     onChange={handleChange}
                                     required
-                                    placeholder="john@example.com"
+                                    placeholder="muhammadasifkhan7852@gmail.com"
                                 />
                             </div>
                             <div className="form-group">

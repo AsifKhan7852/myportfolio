@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone, FaDownload } from 'react-icons/fa';
-import Resume from '../../assests/cv/Asifkhancv2.pdf';
+
 import './Hero.css';
 
 const Hero = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
 
     const fullName = "Muhammad Asif Khan";
     const stats = [
-        { value: "1+", label: "Years Experience" },
+        { value: "2+", label: "Years Experience" },
         { value: "8+", label: "Projects Completed" },
         { value: "100%", label: "Client Satisfaction" }
     ];
@@ -78,7 +78,7 @@ const Hero = () => {
                             <span className="gradient-text">MERN Stack Developer</span>
                         </h2>
                         <p className="hero-description">
-                            Crafting exceptional web experiences with React.js, Node.js, Express, and MongoDB.
+                            Crafting exceptional web experiences with React.js, Node.js, Express, MongoDB, Tailwind, Bootstrap, and MUI.
                             Passionate about building scalable, user-friendly applications that make a difference.
                         </p>
 
@@ -112,8 +112,10 @@ const Hero = () => {
                                 View Projects
                             </Link>
                             <a
-                                href={Resume}
-                                download="Muhammad_Asif_Khan_Resume.pdf"
+                                href="/AsifkhanbCv.pdf"
+                                download="AsifkhanbCv.pdf"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="btn btn-outline"
                             >
                                 <FaDownload style={{ marginRight: '0.5rem' }} />
